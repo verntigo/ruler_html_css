@@ -1,0 +1,134 @@
+.ruler {
+ position: relative;
+ /*width: 70%;*/
+ width: 7in;
+ margin: 20px auto;
+ height: 14px;
+}
+.ruler .in,
+.ruler .hexdec {
+ position: absolute;
+ border-left: 1px solid #555;
+ height: 14px;
+ /*width: 10%;*/
+ width: 14.28571%;
+}
+.ruler .in:after {
+ position: absolute;
+ bottom: -15px;
+ font: 11px/1 sans-serif;
+}
+.ruler .hexdec {
+ height: 5px;
+}
+.ruler .hexdec:nth-of-type(4) {
+ height: 8px;
+}
+.ruler .hexdec:nth-of-type(8) {
+ height: 10px;
+}
+.ruler .hexdec:nth-of-type(12) {
+ height: 8px;
+}
+.ruler .in:nth-of-type(1) {
+ left: 0%;
+}
+.ruler .in:nth-of-type(1):after {
+ content: "0";
+}
+.ruler .in:nth-of-type(2) {
+ left: 14.28571%;
+}
+.ruler .in:nth-of-type(2):after {
+ content: "1";
+}
+.ruler .in:nth-of-type(3) {
+ left: 28.57143%;
+}
+.ruler .in:nth-of-type(3):after {
+ content: "2";
+}
+.ruler .in:nth-of-type(4) {
+ left: 42.85714%;
+}
+.ruler .in:nth-of-type(4):after {
+ content: "3";
+}
+.ruler .in:nth-of-type(5) {
+ left: 57.14286%;
+}
+.ruler .in:nth-of-type(5):after {
+ content: "4";
+}
+.ruler .in:nth-of-type(6) {
+ left: 71.42857%;
+}
+.ruler .in:nth-of-type(6):after {
+ content: "5";
+}
+.ruler .in:nth-of-type(7) {
+ left: 85.71429%;
+}
+.ruler .in:nth-of-type(7):after {
+ content: "6";
+}
+.ruler .in:nth-of-type(8) {
+ left: 100%;
+}
+.ruler .in:nth-of-type(8):after {
+ content: "7";
+}
+
+.ruler .hexdec:nth-of-type(1) {
+ left: 6.25%;
+}
+.ruler .hexdec:nth-of-type(2) {
+ left: 12.5%;
+}
+.ruler .hexdec:nth-of-type(3) {
+ left: 18.75%;
+}
+.ruler .hexdec:nth-of-type(4) {
+ left: 25%;
+}
+.ruler .hexdec:nth-of-type(5) {
+ left: 31.25%;
+}
+.ruler .hexdec:nth-of-type(6) {
+ left: 37.5%;
+}
+.ruler .hexdec:nth-of-type(7) {
+ left: 43.75%;
+}
+.ruler .hexdec:nth-of-type(8) {
+ left: 50%;
+}
+.ruler .hexdec:nth-of-type(9) {
+ left: 56.25%;
+}
+.ruler .hexdec:nth-of-type(10) {
+ left: 62.5%;
+}
+.ruler .hexdec:nth-of-type(11) {
+ left: 68.75%;
+}
+.ruler .hexdec:nth-of-type(12) {
+ left: 75%;
+}
+.ruler .hexdec:nth-of-type(13) {
+ left: 81.25%;
+}
+.ruler .hexdec:nth-of-type(14) {
+ left: 87.5%;
+}
+.ruler .hexdec:nth-of-type(15) {
+ left: 93.75%;
+}
+.ruler .hexdec:nth-of-type(16) {
+ left: 100%;
+}
+
+#mentionme{  
+  text-align:center;
+  margin-top:10%;
+}
